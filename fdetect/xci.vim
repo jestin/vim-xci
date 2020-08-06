@@ -1,1 +1,1 @@
-au! BufRead,BufNewFile *.xci set filetype=xci
+autocmd BufRead,BufNewFile *.xci setfiletype xci
