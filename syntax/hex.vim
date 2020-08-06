@@ -10,12 +10,14 @@ endif
 
 syn clear
 
-syn match hexConstant "(\\\\).[0-9]*[h|H|v|V]*"
+syn match hexByte "[0-9a-fA-F][0-9a-fA-F]"
+syn match hexWord "[0-9a-fA-F][0-9a-fA-F][0-9a-fA-F][0-9a-fA-F]"
 syn keyword hexTodo contained TODO FIXME XXX NOTE
 syn match hexComment "#.*$" contains=hexTodo
 
 let b:current_syntax = "hex"
 
-hi def link hexConstant				Constant
+hi def link hexByte					Constant
+hi def link hexWord					Constant
 hi def link hexComment				Comment
 hi def link hexTodo					Todo
