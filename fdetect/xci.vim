@@ -1,1 +1,1 @@
-au BufRead,BufNewFile *.xci set filetype=xci
+au! BufRead,BufNewFile *.xci set filetype=xci

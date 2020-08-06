@@ -4,9 +4,9 @@
 " Creation date: 2020-08-05
 " Version 0.01
 
-" if exists("b:current_syntax")
-" 	finish
-" endif
+if exists("b:current_syntax")
+	finish
+endif
 
 syn clear
 
