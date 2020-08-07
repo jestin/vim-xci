@@ -35,3 +35,7 @@ by use of an autocommand:
 		autocmd BufRead,BufNewFile *.xci set filetype=xci
 
 Placing the above code in .vimrc should force the filetype to detect properly.
+
+![](xci_syntax.png)
+![](hex_syntax_pal.png)
+![](hex_syntax_tiles.png)
