@@ -7,16 +7,16 @@ retro computer.
 
 ## Installation
 
-- [Vundle][https://github.com/VundleVim/Vundle.vim]
+- [Vundle](https://github.com/VundleVim/Vundle.vim)
 
         Plugin 'jestin/vim-xci'
 
-- [vim-pathogen][https://github.com/tpope/vim-pathogen]
+- [vim-pathogen](https://github.com/tpope/vim-pathogen)
 
         cd ~/.vim/bundle && \
         git clone https://github.com/jestin/vim-xci --depth 1
 
-- [vim-plug][https://github.com/junegunn/vim-plug]
+- [vim-plug](https://github.com/junegunn/vim-plug)
 
         Plug 'jestin/vim-xci'
         :PlugInstall
