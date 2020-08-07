@@ -2,11 +2,12 @@
 
 [Vim](https://www.vim.org/) plugin to support syntax highlighting for the [XCI
 game engine](https://github.com/SlithyMatt/x16-xci) software development kit
-configuration language.
+configuration language for the [Commander X16](https://www.commanderx16.com)
+retro computer.
 
 ## Installation
 
-- [VundleVim][https://github.com/VundleVim/Vundle.vim]
+- [Vundle][https://github.com/VundleVim/Vundle.vim]
 
         Plugin 'jestin/vim-xci'
 
