@@ -21,7 +21,7 @@ hi def link hexTileComment				Comment
 hi def link hexTileTodo					Todo
 
 syn match hexTileCol0 "0"
-hi hexTileCol0 ctermbg=black guibg=black
+hi hexTileCol0 ctermbg=black ctermfg=gray guibg=black guifg=gray
 syn match hexTileCol1 "1"
 hi hexTileCol1 ctermbg=white guibg=white
 syn match hexTileCol2 "2"
