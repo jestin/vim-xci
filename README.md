@@ -36,6 +36,17 @@ by use of an autocommand:
 
 Placing the above code in .vimrc should force the filetype to detect properly.
 
+## Features
+
+Not only does this plugin provide typical syntax highlighting, but it also comes with a special `hex_tile` filetype that will attempt to highlight hexidecimal
+tile and sprite data as to mimic the colors in the default XCI palette:
+
+![](hex_tile.png)
+
+To use this feature, simply open a hex file and use the command `:setfiletype hex_tile`.
+
+## Screenshots
+
 ![](xci_syntax.png)
 ![](hex_syntax_pal.png)
 ![](hex_syntax_tiles.png)
