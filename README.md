@@ -38,12 +38,38 @@ Placing the above code in .vimrc should force the filetype to detect properly.
 
 ## Features
 
-Not only does this plugin provide typical syntax highlighting, but it also comes with a special `hex_tile` filetype that will attempt to highlight hexidecimal
-tile and sprite data as to mimic the colors in the default XCI palette:
+Not only does this plugin provide typical syntax highlighting, but it also
+comes with a special `hex_tile` filetype that will attempt to highlight
+hexidecimal tile and sprite data as to mimic the colors in the default XCI
+palette:
 
 ![](hex_tile.png)
 
 To use this feature, simply open a hex file and use the command `:setfiletype hex_tile`.
+
+To change the colors to use a different palette, you will need to redefine the
+colors of the highlight groups in vim using the `highlight` command:
+
+		highlight hexTileCol3 ctermbg=cyan guibg=cyan
+
+There is a separate highlight group for each hex character.  They are:
+
+* `hexTileCol0`
+* `hexTileCol1`
+* `hexTileCol2`
+* `hexTileCol3`
+* `hexTileCol4`
+* `hexTileCol5`
+* `hexTileCol6`
+* `hexTileCol7`
+* `hexTileCol8`
+* `hexTileCol9`
+* `hexTileColA`
+* `hexTileColB`
+* `hexTileColC`
+* `hexTileColD`
+* `hexTileColE`
+* `hexTileColF`
 
 ## Screenshots
 
